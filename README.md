@@ -11,3 +11,6 @@ I am sharing these projects for your reference and to illustrate how interesting
 
 *The model*: The architecture of the model is shown in the figure below.
 ![LSTM-architecture](https://github.com/plesqui/for-fun/blob/master/LSTM_architecture.png?raw=true "LSTM-Architecture")
+
+*Generation of Jazz music*: After building and training the model (LSTM_Jazz.py) to learn the patterns of jazz music, the next step is to use the model to synthesize new music. At each step of sampling, you will take as input the activation a and cell state c from the previous state of the LSTM, forward propagate by one step, and get a new output activation as well as cell state. The new activation a can then be used to generate the output, using densor as before. The code to generate music is included in 'LSTM_generate_Jazz.py'.
+![LSTM-generation](https://github.com/plesqui/for-fun/blob/master/generation_music.png?raw=true "LSTM-Generation")

@@ -1,5 +1,5 @@
 # for-fun
-In this repository, I include some of the projects I have enjoyed the most while completing a 5-course specialization on deep-learning. 
+In this repository, I include some of the projects I have enjoyed the most while completing a 5-course specialization on deep-learning. The models were built in Keras with TensorFlow backend.
 
 # Important
 I am sharing these projects for your reference and to illustrate how interesting deep learning projects are. If you are enrolled in a machine-learning/deep learning course and have an assignment similar to any of the projects that I present here, please do not copy this work. Instead, try to complete the assignment on your own with the help of the course material, instructors/TAs and the course discussion forum. 
